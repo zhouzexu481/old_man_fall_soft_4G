@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "led.h": "c",
+        "sys.h": "c",
+        "delay.h": "c",
+        "hal_device.h": "c",
+        "mm32f103.h": "c",
+        "system_mm32f103.h": "c"
+    }
+
+    "search.exclude": {
+        
+    },
+    "files.exclude": {
+        "**/appcode/mm32f103c8t6": true,
+        "**/LIB/MM_HAL_lib" : true,
+    }
+
+}
