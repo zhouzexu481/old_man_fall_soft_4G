@@ -6,6 +6,13 @@
 #include "string.h"
 #include <stddef.h> // 基础定义（C标准库）
 
+#include <wchar.h> // 添加这行解决 wcslen 和 swprintf 警告
+
+// 增加提前声明
+uint8_t check_response(const char *expected);
+uint8_t check_timeout(void);
+void handle_retry(SmsState prev_state);
+
 SmsStateMachine g_sms_fsm = {0};
 const uint8_t MAX_RETRY = 3;
 const uint32_t CMD_TIMEOUT = 2000; // 2秒超时
@@ -270,7 +277,7 @@ uint8_t check_response(const char *expected)
 
     if (rxLen <= 0)
     {
-        return;
+        return 0;
     }
 
 

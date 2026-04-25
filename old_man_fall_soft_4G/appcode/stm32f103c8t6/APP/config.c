@@ -3,7 +3,7 @@
 #include "stmflash.h"
 
 ADCCOFIG adcconf[ADC_CH_USE_NUMS] = {
-    // 管脚组	管脚号	管脚组时钟	默认关闭电平
+   0 // 管脚组	管脚号	管脚组时钟	默认关闭电平
 //    {GPIOB, GPIO_Pin_0, RCC_APB2Periph_GPIOB, ADC_CH_8},
 };
 

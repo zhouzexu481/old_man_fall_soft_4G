@@ -795,6 +795,6 @@ void GUI_Center_str(int y, const char* str, u8 mode)
 
 	x0 = (X_WIDTH - (strlen(str) * 8)) / 2;
 
-	GUI_printf(x0, y0, str, mode);
+	GUI_printf(x0, y0, (char *)str, mode);
 }
 

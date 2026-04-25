@@ -37,3 +37,4 @@
 ..\obj\sms4g.o: ..\appcode\stm32f103c8t6\APP\app.h
 ..\obj\sms4g.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\sms4g.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\sms4g.o: D:\keil5\ARM\ARMCC\Bin\..\include\wchar.h
