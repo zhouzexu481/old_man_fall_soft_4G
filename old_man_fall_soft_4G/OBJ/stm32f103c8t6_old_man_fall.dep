@@ -1,0 +1,1523 @@
+Dependencies for Project 'stm32f103c8t6', Target 'old_man_fall': (DO NOT MODIFY !)
+F (.\main.c)(0x692F002C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (..\appcode\stm32f103c8t6\SYSTEM\delay\delay.h)(0x650EC2E8)
+I (..\appcode\stm32f103c8t6\SYSTEM\sys\sys.h)(0x64FC9E0C)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+I (..\appcode\stm32f103c8t6\SYSTEM\usart\usart.h)(0x67D828EE)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\DRV\LED\led.h)(0x66FD4F8A)
+I (..\appcode\stm32f103c8t6\DRV\KEY\key.h)(0x66E93F95)
+I (..\appcode\stm32f103c8t6\DRV\KEY\flexible_button.h)(0x64F69353)
+I (..\appcode\stm32f103c8t6\DRV\IIC\mysoftiic.h)(0x64F69354)
+I (..\appcode\stm32f103c8t6\DRV\OLED\oled.h)(0x64F69350)
+I (..\appcode\stm32f103c8t6\DRV\OLED\gui.h)(0x650CD1AF)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\APP\app.h)(0x692F0553)
+I (..\appcode\stm32f103c8t6\DRV\ROMFLASH\stmflash.h)(0x66FCD5FD)
+I (..\appcode\stm32f103c8t6\MENU\menu.h)(0x64FD83AC)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\MENU\mainhmi.h)(0x631469F5)
+I (..\appcode\stm32f103c8t6\MENU\hmi_common.h)(0x650EFBE0)
+I (..\appcode\stm32f103c8t6\DRV\MAX30102\max30102.h)(0x650EE705)
+I (..\appcode\stm32f103c8t6\DRV\Mpu_6050\Mpu_6050.h)(0x650EC060)
+I (..\appcode\stm32f103c8t6\DRV\GPS\gps.h)(0x66FCC569)
+I (..\appcode\stm32f103c8t6\DRV\SMS\sms.h)(0x650EB2BD)
+I (..\appcode\stm32f103c8t6\DRV\TIMER\timer.h)(0x650EC2EE)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\DRV\DS18B20\ds18b20.h)(0x66E94CBA)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Gizwits\gizwits_product.h)(0x651294A4)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Gizwits\gizwits_protocol.h)(0x692F04A4)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Utils\common.h)(0x65F85128)
+I (D:\keil5\ARM\ARMCC\include\ctype.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Utils\gagent_md5.h)(0x6441A11E)
+I (..\appcode\stm32f103c8t6\DRV\SMS\sms4g.h)(0x6807A79A)
+F (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_it.c)(0x64F69296)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_it.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+F (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.c)(0x64F69295)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\system_stm32f10x.o --omf_browse ..\obj\system_stm32f10x.crf --depend ..\obj\system_stm32f10x.d)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+F (..\appcode\stm32f103c8t6\APP\app.c)(0x64FD6D3A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\app.o --omf_browse ..\obj\app.crf --depend ..\obj\app.d)
+I (..\appcode\stm32f103c8t6\APP\app.h)(0x692F0553)
+I (..\appcode\stm32f103c8t6\SYSTEM\sys\sys.h)(0x64FC9E0C)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+F (..\appcode\stm32f103c8t6\APP\crc.c)(0x6344E47A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\crc.o --omf_browse ..\obj\crc.crf --depend ..\obj\crc.d)
+I (..\appcode\stm32f103c8t6\APP\crc.h)(0x6344E47A)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+F (..\appcode\stm32f103c8t6\APP\FFT_256.c)(0x64C139E3)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\fft_256.o --omf_browse ..\obj\fft_256.crf --depend ..\obj\fft_256.d)
+I (..\appcode\stm32f103c8t6\APP\FFT_256.h)(0x649AF615)
+I (..\appcode\stm32f103c8t6\SYSTEM\sys\sys.h)(0x64FC9E0C)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+F (..\appcode\stm32f103c8t6\APP\config.c)(0x66E942E2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\config.o --omf_browse ..\obj\config.crf --depend ..\obj\config.d)
+I (..\appcode\stm32f103c8t6\APP\config.h)(0x66D738BF)
+I (..\appcode\stm32f103c8t6\SYSTEM\sys\sys.h)(0x64FC9E0C)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+I (..\appcode\stm32f103c8t6\DRV\ADC\adc.h)(0x65337439)
+I (..\appcode\stm32f103c8t6\DRV\ROMFLASH\stmflash.h)(0x66FCD5FD)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+F (..\LIB\STM32F10x_FWLib\CORE\startup_stm32f10x_hd.s)(0x6516A7D2)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d)
+F (..\LIB\STM32F10x_FWLib\CORE\core_cm3.c)(0x64F692A7)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\core_cm3.o --omf_browse ..\obj\core_cm3.crf --depend ..\obj\core_cm3.d)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+F (..\LIB\STM32F10x_FWLib\src\misc.c)(0x64F6929D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+F (..\LIB\STM32F10x_FWLib\src\stm32f10x_adc.c)(0x64F6929D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\stm32f10x_adc.o --omf_browse ..\obj\stm32f10x_adc.crf --depend ..\obj\stm32f10x_adc.d)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+F (..\LIB\STM32F10x_FWLib\src\stm32f10x_bkp.c)(0x64F6929D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\stm32f10x_bkp.o --omf_browse ..\obj\stm32f10x_bkp.crf --depend ..\obj\stm32f10x_bkp.d)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+F (..\LIB\STM32F10x_FWLib\src\stm32f10x_can.c)(0x64F6929D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\stm32f10x_can.o --omf_browse ..\obj\stm32f10x_can.crf --depend ..\obj\stm32f10x_can.d)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+F (..\LIB\STM32F10x_FWLib\src\stm32f10x_cec.c)(0x64F6929D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\stm32f10x_cec.o --omf_browse ..\obj\stm32f10x_cec.crf --depend ..\obj\stm32f10x_cec.d)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+F (..\LIB\STM32F10x_FWLib\src\stm32f10x_crc.c)(0x64F6929C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\stm32f10x_crc.o --omf_browse ..\obj\stm32f10x_crc.crf --depend ..\obj\stm32f10x_crc.d)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+F (..\LIB\STM32F10x_FWLib\src\stm32f10x_dac.c)(0x64F6929C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\stm32f10x_dac.o --omf_browse ..\obj\stm32f10x_dac.crf --depend ..\obj\stm32f10x_dac.d)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+F (..\LIB\STM32F10x_FWLib\src\stm32f10x_dbgmcu.c)(0x64F6929C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\stm32f10x_dbgmcu.o --omf_browse ..\obj\stm32f10x_dbgmcu.crf --depend ..\obj\stm32f10x_dbgmcu.d)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+F (..\LIB\STM32F10x_FWLib\src\stm32f10x_dma.c)(0x64F6929C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\stm32f10x_dma.o --omf_browse ..\obj\stm32f10x_dma.crf --depend ..\obj\stm32f10x_dma.d)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+F (..\LIB\STM32F10x_FWLib\src\stm32f10x_exti.c)(0x64F6929C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\stm32f10x_exti.o --omf_browse ..\obj\stm32f10x_exti.crf --depend ..\obj\stm32f10x_exti.d)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+F (..\LIB\STM32F10x_FWLib\src\stm32f10x_flash.c)(0x64F6929B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\stm32f10x_flash.o --omf_browse ..\obj\stm32f10x_flash.crf --depend ..\obj\stm32f10x_flash.d)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+F (..\LIB\STM32F10x_FWLib\src\stm32f10x_fsmc.c)(0x64F6929B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\stm32f10x_fsmc.o --omf_browse ..\obj\stm32f10x_fsmc.crf --depend ..\obj\stm32f10x_fsmc.d)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+F (..\LIB\STM32F10x_FWLib\src\stm32f10x_gpio.c)(0x64F6929A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\stm32f10x_gpio.o --omf_browse ..\obj\stm32f10x_gpio.crf --depend ..\obj\stm32f10x_gpio.d)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+F (..\LIB\STM32F10x_FWLib\src\stm32f10x_i2c.c)(0x64F6929A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\stm32f10x_i2c.o --omf_browse ..\obj\stm32f10x_i2c.crf --depend ..\obj\stm32f10x_i2c.d)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+F (..\LIB\STM32F10x_FWLib\src\stm32f10x_iwdg.c)(0x64F69299)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\stm32f10x_iwdg.o --omf_browse ..\obj\stm32f10x_iwdg.crf --depend ..\obj\stm32f10x_iwdg.d)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+F (..\LIB\STM32F10x_FWLib\src\stm32f10x_pwr.c)(0x64F69299)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\stm32f10x_pwr.o --omf_browse ..\obj\stm32f10x_pwr.crf --depend ..\obj\stm32f10x_pwr.d)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+F (..\LIB\STM32F10x_FWLib\src\stm32f10x_rcc.c)(0x64F69299)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\stm32f10x_rcc.o --omf_browse ..\obj\stm32f10x_rcc.crf --depend ..\obj\stm32f10x_rcc.d)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+F (..\LIB\STM32F10x_FWLib\src\stm32f10x_rtc.c)(0x64F69299)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\stm32f10x_rtc.o --omf_browse ..\obj\stm32f10x_rtc.crf --depend ..\obj\stm32f10x_rtc.d)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+F (..\LIB\STM32F10x_FWLib\src\stm32f10x_sdio.c)(0x64F69297)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\stm32f10x_sdio.o --omf_browse ..\obj\stm32f10x_sdio.crf --depend ..\obj\stm32f10x_sdio.d)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+F (..\LIB\STM32F10x_FWLib\src\stm32f10x_spi.c)(0x64F69298)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\stm32f10x_spi.o --omf_browse ..\obj\stm32f10x_spi.crf --depend ..\obj\stm32f10x_spi.d)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+F (..\LIB\STM32F10x_FWLib\src\stm32f10x_tim.c)(0x64F69298)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\stm32f10x_tim.o --omf_browse ..\obj\stm32f10x_tim.crf --depend ..\obj\stm32f10x_tim.d)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+F (..\LIB\STM32F10x_FWLib\src\stm32f10x_usart.c)(0x64F69297)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\stm32f10x_usart.o --omf_browse ..\obj\stm32f10x_usart.crf --depend ..\obj\stm32f10x_usart.d)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+F (..\LIB\STM32F10x_FWLib\src\stm32f10x_wwdg.c)(0x64F69296)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\stm32f10x_wwdg.o --omf_browse ..\obj\stm32f10x_wwdg.crf --depend ..\obj\stm32f10x_wwdg.d)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+F (..\LIB\LIB\our_lib.lib)(0x6703D306)()
+F (..\appcode\stm32f103c8t6\SYSTEM\delay\delay.c)(0x66FCCD4D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\appcode\stm32f103c8t6\SYSTEM\delay\delay.h)(0x650EC2E8)
+I (..\appcode\stm32f103c8t6\SYSTEM\sys\sys.h)(0x64FC9E0C)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+I (..\appcode\stm32f103c8t6\DRV\KEY\key.h)(0x66E93F95)
+I (..\appcode\stm32f103c8t6\DRV\KEY\flexible_button.h)(0x64F69353)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Gizwits\gizwits_product.h)(0x651294A4)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Gizwits\gizwits_protocol.h)(0x692F04A4)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Utils\common.h)(0x65F85128)
+I (D:\keil5\ARM\ARMCC\include\ctype.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Utils\gagent_md5.h)(0x6441A11E)
+F (..\appcode\stm32f103c8t6\SYSTEM\sys\sys.c)(0x64F6934E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\appcode\stm32f103c8t6\SYSTEM\sys\sys.h)(0x64FC9E0C)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+F (..\appcode\stm32f103c8t6\SYSTEM\usart\usart.c)(0x69AECFDC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\appcode\stm32f103c8t6\SYSTEM\usart\usart.h)(0x67D828EE)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\SYSTEM\sys\sys.h)(0x64FC9E0C)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\DRV\GPS\gps.h)(0x66FCC569)
+I (D:\keil5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Gizwits\gizwits_product.h)(0x651294A4)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Gizwits\gizwits_protocol.h)(0x692F04A4)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Utils\common.h)(0x65F85128)
+I (D:\keil5\ARM\ARMCC\include\ctype.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Utils\gagent_md5.h)(0x6441A11E)
+F (..\appcode\stm32f103c8t6\DRV\LED\led.c)(0x66FD4FCE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+I (..\appcode\stm32f103c8t6\DRV\LED\led.h)(0x66FD4F8A)
+I (..\appcode\stm32f103c8t6\SYSTEM\sys\sys.h)(0x64FC9E0C)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+F (..\appcode\stm32f103c8t6\DRV\KEY\key.c)(0x66E93F8F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\key.o --omf_browse ..\obj\key.crf --depend ..\obj\key.d)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+I (..\appcode\stm32f103c8t6\DRV\KEY\key.h)(0x66E93F95)
+I (..\appcode\stm32f103c8t6\SYSTEM\sys\sys.h)(0x64FC9E0C)
+I (..\appcode\stm32f103c8t6\DRV\KEY\flexible_button.h)(0x64F69353)
+I (..\appcode\stm32f103c8t6\SYSTEM\delay\delay.h)(0x650EC2E8)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\MENU\hmi_common.h)(0x650EFBE0)
+F (..\appcode\stm32f103c8t6\DRV\Mpu_6050\Mpu_6050.c)(0x681E1AED)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\mpu_6050.o --omf_browse ..\obj\mpu_6050.crf --depend ..\obj\mpu_6050.d)
+I (..\appcode\stm32f103c8t6\DRV\Mpu_6050\Mpu_6050.h)(0x650EC060)
+I (..\appcode\stm32f103c8t6\SYSTEM\sys\sys.h)(0x64FC9E0C)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+I (..\appcode\stm32f103c8t6\DRV\IIC\mysoftiic.h)(0x64F69354)
+F (..\appcode\stm32f103c8t6\DRV\TIMER\timer.c)(0x66E93FCF)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\timer.o --omf_browse ..\obj\timer.crf --depend ..\obj\timer.d)
+I (..\appcode\stm32f103c8t6\DRV\TIMER\timer.h)(0x650EC2EE)
+I (..\appcode\stm32f103c8t6\SYSTEM\sys\sys.h)(0x64FC9E0C)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+I (..\appcode\stm32f103c8t6\DRV\OLED\gui.h)(0x650CD1AF)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\DRV\IIC\mysoftiic.h)(0x64F69354)
+F (..\appcode\stm32f103c8t6\DRV\DS18B20\ds18b20.c)(0x66E94E26)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\ds18b20.o --omf_browse ..\obj\ds18b20.crf --depend ..\obj\ds18b20.d)
+I (..\appcode\stm32f103c8t6\DRV\DS18B20\ds18b20.h)(0x66E94CBA)
+I (..\appcode\stm32f103c8t6\SYSTEM\sys\sys.h)(0x64FC9E0C)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+I (..\appcode\stm32f103c8t6\SYSTEM\delay\delay.h)(0x650EC2E8)
+F (..\appcode\stm32f103c8t6\DRV\SMS\sms4g.c)(0x68FA3D64)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\sms4g.o --omf_browse ..\obj\sms4g.crf --depend ..\obj\sms4g.d)
+I (..\appcode\stm32f103c8t6\DRV\SMS\sms4g.h)(0x6807A79A)
+I (..\appcode\stm32f103c8t6\SYSTEM\sys\sys.h)(0x64FC9E0C)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+I (..\appcode\stm32f103c8t6\SYSTEM\delay\delay.h)(0x650EC2E8)
+I (..\appcode\stm32f103c8t6\SYSTEM\usart\usart.h)(0x67D828EE)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\DRV\ROMFLASH\stmflash.h)(0x66FCD5FD)
+I (..\appcode\stm32f103c8t6\APP\app.h)(0x692F0553)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+F (..\appcode\stm32f103c8t6\DRV\OLED\gui.c)(0x6831D783)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\gui.o --omf_browse ..\obj\gui.crf --depend ..\obj\gui.d)
+I (..\appcode\stm32f103c8t6\DRV\OLED\oled.h)(0x64F69350)
+I (..\appcode\stm32f103c8t6\SYSTEM\sys\sys.h)(0x64FC9E0C)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+I (..\appcode\stm32f103c8t6\DRV\IIC\mysoftiic.h)(0x64F69354)
+I (..\appcode\stm32f103c8t6\DRV\OLED\gui.h)(0x650CD1AF)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\DRV\OLED\oledfont.h)(0x69303EAD)
+I (..\appcode\stm32f103c8t6\DRV\OLED\bmp.h)(0x650EF9E8)
+I (..\appcode\stm32f103c8t6\DRV\OLED\binary.h)(0x64F69352)
+I (..\appcode\stm32f103c8t6\SYSTEM\delay\delay.h)(0x650EC2E8)
+I (..\appcode\stm32f103c8t6\DRV\OLED\mymath.h)(0x64F69351)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+F (..\appcode\stm32f103c8t6\DRV\OLED\mymath.c)(0x64F69351)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\mymath.o --omf_browse ..\obj\mymath.crf --depend ..\obj\mymath.d)
+I (..\appcode\stm32f103c8t6\DRV\OLED\mymath.h)(0x64F69351)
+I (..\appcode\stm32f103c8t6\SYSTEM\sys\sys.h)(0x64FC9E0C)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+F (..\appcode\stm32f103c8t6\MENU\mainhmi.c)(0x69AEDE70)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\mainhmi.o --omf_browse ..\obj\mainhmi.crf --depend ..\obj\mainhmi.d)
+I (..\appcode\stm32f103c8t6\MENU\menu.h)(0x64FD83AC)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\MENU\hmi_common.h)(0x650EFBE0)
+I (..\appcode\stm32f103c8t6\SYSTEM\sys\sys.h)(0x64FC9E0C)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+I (..\appcode\stm32f103c8t6\APP\app.h)(0x692F0553)
+I (..\appcode\stm32f103c8t6\DRV\ADC\adc.h)(0x65337439)
+I (..\appcode\stm32f103c8t6\DRV\ROMFLASH\stmflash.h)(0x66FCD5FD)
+I (..\appcode\stm32f103c8t6\DRV\OLED\gui.h)(0x650CD1AF)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\DRV\IIC\mysoftiic.h)(0x64F69354)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\DRV\GPS\gps.h)(0x66FCC569)
+F (..\appcode\stm32f103c8t6\MENU\menu.c)(0x64FDB09A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\menu.o --omf_browse ..\obj\menu.crf --depend ..\obj\menu.d)
+I (..\appcode\stm32f103c8t6\MENU\menu.h)(0x64FD83AC)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+F (..\appcode\stm32f103c8t6\MENU\menu_key.c)(0x6828A1D7)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\menu_key.o --omf_browse ..\obj\menu_key.crf --depend ..\obj\menu_key.d)
+I (..\appcode\stm32f103c8t6\MENU\menu.h)(0x64FD83AC)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\MENU\hmi_common.h)(0x650EFBE0)
+I (..\appcode\stm32f103c8t6\SYSTEM\sys\sys.h)(0x64FC9E0C)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+I (..\appcode\stm32f103c8t6\DRV\KEY\key.h)(0x66E93F95)
+I (..\appcode\stm32f103c8t6\DRV\KEY\flexible_button.h)(0x64F69353)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\DRV\ROMFLASH\stmflash.h)(0x66FCD5FD)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Gizwits\gizwits_product.h)(0x651294A4)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Gizwits\gizwits_protocol.h)(0x692F04A4)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Utils\common.h)(0x65F85128)
+I (D:\keil5\ARM\ARMCC\include\ctype.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Utils\gagent_md5.h)(0x6441A11E)
+I (..\appcode\stm32f103c8t6\APP\app.h)(0x692F0553)
+I (..\appcode\stm32f103c8t6\DRV\SMS\sms4g.h)(0x6807A79A)
+F (..\appcode\stm32f103c8t6\MENU\main_set_menu_hmi.c)(0x67B992E6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\main_set_menu_hmi.o --omf_browse ..\obj\main_set_menu_hmi.crf --depend ..\obj\main_set_menu_hmi.d)
+I (..\appcode\stm32f103c8t6\MENU\hmi_common.h)(0x650EFBE0)
+I (..\appcode\stm32f103c8t6\SYSTEM\sys\sys.h)(0x64FC9E0C)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+I (..\appcode\stm32f103c8t6\MENU\menu.h)(0x64FD83AC)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\DRV\ROMFLASH\stmflash.h)(0x66FCD5FD)
+I (..\appcode\stm32f103c8t6\DRV\OLED\gui.h)(0x650CD1AF)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\DRV\IIC\mysoftiic.h)(0x64F69354)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+F (..\appcode\stm32f103c8t6\cloudPlatform\Gizwits\gizwits_product.c)(0x6925CAA1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\gizwits_product.o --omf_browse ..\obj\gizwits_product.crf --depend ..\obj\gizwits_product.d)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Gizwits\gizwits_product.h)(0x651294A4)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\SYSTEM\sys\sys.h)(0x64FC9E0C)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Gizwits\gizwits_protocol.h)(0x692F04A4)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Utils\common.h)(0x65F85128)
+I (D:\keil5\ARM\ARMCC\include\ctype.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Utils\gagent_md5.h)(0x6441A11E)
+I (..\appcode\stm32f103c8t6\APP\app.h)(0x692F0553)
+I (..\appcode\stm32f103c8t6\DRV\GPS\gps.h)(0x66FCC569)
+I (..\appcode\stm32f103c8t6\DRV\ROMFLASH\stmflash.h)(0x66FCD5FD)
+F (..\appcode\stm32f103c8t6\cloudPlatform\Gizwits\gizwits_protocol.c)(0x6925C983)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\gizwits_protocol.o --omf_browse ..\obj\gizwits_protocol.crf --depend ..\obj\gizwits_protocol.d)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Utils\ringBuffer.h)(0x6441A11E)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Gizwits\gizwits_product.h)(0x651294A4)
+I (..\appcode\stm32f103c8t6\SYSTEM\sys\sys.h)(0x64FC9E0C)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\CORE\core_cm3.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\system_stm32f10x.h)(0x64F69294)
+I (..\LIB\STM32F10x_FWLib\stm32f10x\stm32f10x_conf.h)(0x64F69296)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x64F73E81)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x64F692A5)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x64F692A3)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x64F692A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x64F692A2)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x64F692A1)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x64F6C9A4)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x64F692A0)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x64F6929F)
+I (..\LIB\STM32F10x_FWLib\inc\misc.h)(0x64F692A5)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Gizwits\gizwits_protocol.h)(0x692F04A4)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Utils\common.h)(0x65F85128)
+I (D:\keil5\ARM\ARMCC\include\ctype.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Utils\gagent_md5.h)(0x6441A11E)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Utils\dataPointTools.h)(0x6441A11E)
+F (..\appcode\stm32f103c8t6\cloudPlatform\Utils\common.c)(0x6441A11E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\common.o --omf_browse ..\obj\common.crf --depend ..\obj\common.d)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Utils\common.h)(0x65F85128)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\ctype.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+F (..\appcode\stm32f103c8t6\cloudPlatform\Utils\dataPointTools.c)(0x6441A11E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\datapointtools.o --omf_browse ..\obj\datapointtools.crf --depend ..\obj\datapointtools.d)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Utils\dataPointTools.h)(0x6441A11E)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Utils\common.h)(0x65F85128)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\ctype.h)(0x588B8344)
+F (..\appcode\stm32f103c8t6\cloudPlatform\Utils\gagent_md5.c)(0x6441A11E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\gagent_md5.o --omf_browse ..\obj\gagent_md5.crf --depend ..\obj\gagent_md5.d)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Utils\gagent_md5.h)(0x6441A11E)
+F (..\appcode\stm32f103c8t6\cloudPlatform\Utils\ringbuffer.c)(0x6441A11E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIB\STM32F10x_FWLib\CORE -I ..\LIB\STM32F10x_FWLib\inc -I ..\LIB\STM32F10x_FWLib\stm32f10x -I ..\appcode\stm32f103c8t6\SYSTEM\delay -I ..\appcode\stm32f103c8t6\SYSTEM\sys -I ..\appcode\stm32f103c8t6\SYSTEM\usart -I ..\appcode\stm32f103c8t6\DRV\LED -I ..\appcode\stm32f103c8t6\DRV\KEY -I ..\appcode\stm32f103c8t6\DRV\OLED -I ..\appcode\stm32f103c8t6\DRV\IIC -I ..\appcode\stm32f103c8t6\DRV\ADC -I ..\appcode\stm32f103c8t6\DRV\AUDIO -I ..\appcode\stm32f103c8t6\DRV\ROMFLASH -I ..\appcode\stm32f103c8t6\MENU -I ..\appcode\stm32f103c8t6\APP -I ..\appcode\stm32f103c8t6\DRV\MAX30102 -I ..\appcode\stm32f103c8t6\DRV\Mpu_6050 -I ..\appcode\stm32f103c8t6\DRV\GPS -I ..\appcode\stm32f103c8t6\DRV\SMS -I ..\appcode\stm32f103c8t6\DRV\TIMER -I ..\appcode\stm32f103c8t6\DRV\HC_SR04 -I ..\appcode\stm32f103c8t6\DRV\DS18B20 -I ..\appcode\stm32f103c8t6\cloudPlatform\Gizwits -I ..\appcode\stm32f103c8t6\cloudPlatform\Utils-I.\RTE\_old_man_fall-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\obj\ringbuffer.o --omf_browse ..\obj\ringbuffer.crf --depend ..\obj\ringbuffer.d)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Utils\ringBuffer.h)(0x6441A11E)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\appcode\stm32f103c8t6\cloudPlatform\Utils\common.h)(0x65F85128)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\ctype.h)(0x588B8344)
