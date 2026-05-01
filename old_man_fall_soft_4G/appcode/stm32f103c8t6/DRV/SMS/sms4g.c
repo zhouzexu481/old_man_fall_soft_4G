@@ -277,7 +277,7 @@ uint8_t check_response(const char *expected)
 
     if (rxLen <= 0)
     {
-        return 0;
+        return 0; 
     }
 
 
