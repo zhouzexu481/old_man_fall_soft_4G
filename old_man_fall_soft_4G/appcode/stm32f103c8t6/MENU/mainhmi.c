@@ -36,8 +36,13 @@ void hmi_status_menu_load(void)
 	// GUI_ShowBMP(48, 0, 80 - 1, 32 - 1 , car_off, Normal);
 
 	memset(oledShowBuf, 0, sizeof(oledShowBuf));
-	sprintf(oledShowBuf, "老人监护系统"); 
+	sprintf(oledShowBuf, "老人生活"); 
 	GUI_Center_str(0, oledShowBuf, Normal);
+	
+	memset(oledShowBuf, 0, sizeof(oledShowBuf));
+	sprintf(oledShowBuf, "检测系统"); 
+	GUI_Center_str(16, oledShowBuf, Normal);
+	
 
 //	if (g_appdata.fall == 1 || g_appdata.mistakeTouchSta)
 //	{
